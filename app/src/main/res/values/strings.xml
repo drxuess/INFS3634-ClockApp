@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ClockApp</string>
+    <string name="settings_12">12HR</string>
+    <string name="settings_24">24HR</string>
+    <string name="fab_desc">Edit</string>
+    <string name="title_activity_edit">EditActivity</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCityName"
+                android:textSize="24sp"
+                android:text="Sample City"
+                android:padding="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCurrentTime"
+                android:textSize="48sp"
+                android:text="00:00 AM"
+                android:padding="8dp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_gravity="center_vertical|right"
+            android:padding="8dp"
+            android:id="@+id/ivCityImage"
+            android:baselineAlignBottom="@id/tvCurrentTime"/>
+
+    </GridLayout>
+</android.support.v7.widget.CardView>
